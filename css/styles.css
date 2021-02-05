@@ -6,8 +6,8 @@
 }
 
 body {
-  background-color: #eee8d5;
-  color: #839496;
+  background-color: #1DA1F2;
+  color: #FFFFFF;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,26 +36,31 @@ p {
   max-width: 1200px;
   padding-bottom: 60px;
 }
+.footer {
+  background-color: #657786;
+}
 
 /* Navbar */
 .nav-gorilla {
   width: 100px;
 }
 .nav-link {
-  font-size: 1.5rem;
-  color: #839496;
+  font-size: 2rem;
+  color: #FFFFFF;
 }
 
 .navbar {
   width: 100%;
   margin-bottom: 30px;
+  background-color: #657786;
 }
 
-.splash-box {
+.home-box {
   color: #44475a;
   border: 2px solid #5D6063;
   border-radius: 5px;
   max-height: 500px;
+  min-height: 300px;
   padding: 0 !important;
 
   display: flex;
@@ -82,6 +87,24 @@ p {
     object-fit: cover;
 }
 
+#home-feed {
+  background-color: red;
+}
+#home-account {
+  background-color: green;
+}
+#home-draft {
+  background-color: blue;
+}
+
+
+
+
+
+
+
+
+
 /* Box-sizing reset: //w3bits.com/?p=3225 */
 html {
   box-sizing: border-box;
@@ -92,6 +115,13 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+
+
+
+
+
+
 
 /* The Masonry Container */
 .masonry {
