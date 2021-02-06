@@ -9,51 +9,63 @@
 </head>
 
 <body>
+  <div class="page-wrapper">
   <div class="site-title"><h1>Microblog It!</h1></div>
 
-  <nav class="navbar navbar-expand-lg justify-content-between">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="navbar-nav">
-          <a class="navbar-brand" href="pages/account.html"><img src="images/user.jpg" class="nav-circle"></a>
-          <a class="nav-link" href="index.html">Dashboard</a>
-          <a class="nav-link" href="pages/account.html">Account</a>
-          <a class="nav-link" href="pages/feed.html">Feed</a>
-          <a class="nav-link" href="pages/draft.html">Post!</a>
+    <nav class="navbar navbar-expand-lg justify-content-between">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav">
+            <a class="navbar-brand" href="pages/account.html"><img src="images/user.jpg" class="nav-circle"></a>
+            <a class="nav-link" href="index.html">Dashboard</a>
+            <a class="nav-link" href="pages/account.html">Account</a>
+            <a class="nav-link" href="pages/feed.html">Feed</a>
+            <a class="nav-link" href="pages/draft.html">Post!</a>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <div class="page">
-    <div class="title"><h1>Dashboard</h1></div>
-    <hr class="top">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-12 home-box" id="home-feed">
-          <a href="pages/feed.html"><div class="centered">See What's Going On</div></a>
+    <div class="page">
+      <div class="title"><h1>Dashboard</h1></div>
+      <hr class="top">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-12" id="mission-box">
+              <h2>Our Mission Statement:</h2>
+              <p><em>
+                  The dystopia is here today!
+                  Feel like a hacker.
+                  Connect with your friends.
+                  Write to your heart's content.
+                  And be happy that you're always in the know!
+              </em></p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6 col-12 home-box" id="home-account">
-          <a href="pages/account.html"><div class="centered">My Account</div></a>
-        </div>
-        <div class="col-sm-6 col-12 home-box" id="home-draft">
-          <a href="pages/draft.html"><div class="centered">Draft a Post</div></a>
+        <div class="row">
+          <div class="col-sm-4 col-12 home-box" id="home-feed">
+            <a href="pages/feed.html"><div class="centered">My Feed</div></a>
+          </div>
+          <div class="col-sm-4 col-12 home-box" id="home-account">
+            <a href="pages/account.html"><div class="centered">My Account</div></a>
+          </div>
+          <div class="col-sm-4 col-12 home-box" id="home-draft">
+            <a href="pages/draft.html"><div class="centered">Post Something</div></a>
+          </div>
         </div>
       </div>
     </div>
+
+    <footer class="text-center text-lg-start footer">
+      <div class="text-center p-3">
+        © 2020 Copyright - Ben Murray - Images Courtesy of Myself and Pexels- Repo found at
+        <a class="text-dark" href="https://github.com/ben-mur64/microblog">Github</a>
+      </div>
+    </footer>
   </div>
-
-  <footer class="text-center text-lg-start footer">
-    <div class="text-center p-3">
-      © 2020 Copyright - Ben Murray - Images Courtesy of Myself and Pexels- Repo found at
-      <a class="text-dark" href="https://github.com/ben-mur64/microblog">Github</a>
-    </div>
-  </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

@@ -5,10 +5,15 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
-  background-color: #1DA1F2;
+  /* background-color: #1DA1F2; */
+  background-color: #01012b;
   color: #FFFFFF;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -17,6 +22,7 @@ h2 {
   font-size: 1.5rem;
   margin-left: 10px;
   margin-top: 10px;
+  color: #04d9e8;
 }
 
 p, input, label, button {
@@ -24,8 +30,14 @@ p, input, label, button {
   margin: 10px;
 }
 
+.page-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .site-title {
-  background-color: #0052B8;
+  /* background-color: #0052B8; */
   display: flex;
   justify-content: center;
   text-align: center;
@@ -37,20 +49,31 @@ p, input, label, button {
 }
 
 .title {
+  color: #04d9e8;
   display: flex;
   justify-content: center;
   text-align: center;
   padding: 20px;
+  padding-top: 30px;
 }
 
 .page {
-  width: 100%;
-  height: 100%;
-  flex: 1;
+  flex-grow: 1;
 }
 
 .container {
   max-width: 1200px;
+}
+
+.button {
+  background-color: #ff2a6d; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 /* Navbar */
@@ -65,7 +88,8 @@ p, input, label, button {
 
 .navbar {
   width: 100%;
-  background-color: #657786;
+  /* background-color: #657786; */
+  background-color: #ff2a6d;
   padding-bottom: 0;
   padding-top: 0;
 }
@@ -76,8 +100,7 @@ hr.top {
 }
 
 .home-box {
-  color: #44475a;
-  border: 2px solid #5D6063;
+  border: 3px solid #ff2a6d;
   border-radius: 5px;
   max-height: 500px;
   min-height: 300px;
@@ -95,14 +118,14 @@ hr.top {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  font-size: 3rem;
+  color: #01012b;
+  font-size: 2.5rem;
 }
 
 /* Post Styles */
 
 .post {
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ff2a6d;
   border-radius: 10px;
   padding: 5px;
 }
@@ -116,6 +139,7 @@ hr.top {
 
 .post-user {
   font-weight: bold;
+  color: #04d9e8;
 }
 .splash-img {
     height: auto;
@@ -125,14 +149,25 @@ hr.top {
     object-fit: cover;
 }
 
+#mission-box {
+  max-height: 500px;
+  min-height: 300px;
+  padding: 0 !important;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
 #home-feed {
-  background-color: red;
+  background-color: #d1f7ff;
 }
 #home-account {
-  background-color: green;
+  background-color: #04d9e8;
 }
 #home-draft {
-  background-color: blue;
+  background-color: #005678;
 }
 
 

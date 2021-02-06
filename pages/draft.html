@@ -9,41 +9,47 @@
 </head>
 
 <body>
-  <div class="site-title"><h1>Microblog It!</h1></div>
+  <div class="page-wrapper">
+    <div class="site-title"><h1>Microblog It!</h1></div>
 
-  <nav class="navbar navbar-expand-lg justify-content-between">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="navbar-nav">
-          <a class="navbar-brand" href="account.html"><img src="../images/user.jpg" class="nav-circle"></a>
-          <a class="nav-link" href="../index.html">Dashboard</a>
-          <a class="nav-link" href="account.html">Account</a>
-          <a class="nav-link" href="feed.html">Feed</a>
-          <a class="nav-link" href="draft.html">Post!</a>
+    <nav class="navbar navbar-expand-lg justify-content-between">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav">
+            <a class="navbar-brand" href="account.html"><img src="../images/user.jpg" class="nav-circle"></a>
+            <a class="nav-link" href="../index.html">Dashboard</a>
+            <a class="nav-link" href="account.html">Account</a>
+            <a class="nav-link" href="feed.html">Feed</a>
+            <a class="nav-link" href="draft.html">Post!</a>
+          </div>
         </div>
       </div>
+    </nav>
+
+    <div class="page">
+      <div class="title"><h1>Say Something to the World!</h1></div>
+      <hr class="top">
+
+      <div class="container text-center">
+        <div class="form-group purple-border">
+          <label for="exampleFormControlTextarea4">Your Post:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea4" rows="8"></textarea>
+        </div>
+        <button type="button" class="button">Publish!</button>
+      </div>
+
     </div>
-  </nav>
 
-  <div class="page">
-    <div class="title"><h1>Say Something to the World!</h1></div>
-    <hr class="top">
-
-    <div class="container">
-      <textarea name="post" cols="80" rows="10"></textarea>
-    </div>
-
+    <footer class="text-center text-lg-start footer">
+      <div class="text-center p-3">
+        © 2020 Copyright - Ben Murray - Images Courtesy of Myself and Pexels- Repo found at
+        <a class="text-dark" href="https://github.com/ben-mur64/microblog">Github</a>
+      </div>
+    </footer>
   </div>
-
-  <footer class="text-center text-lg-start footer">
-    <div class="text-center p-3">
-      © 2020 Copyright - Ben Murray - Images Courtesy of Myself and Pexels- Repo found at
-      <a class="text-dark" href="https://github.com/ben-mur64/microblog">Github</a>
-    </div>
-  </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

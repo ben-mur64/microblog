@@ -9,87 +9,89 @@
 </head>
 
 <body>
-  <div class="site-title"><h1>Microblog It!</h1></div>
+  <div class="page-wrapper">
+    <div class="site-title"><h1>Microblog It!</h1></div>
 
-  <nav class="navbar navbar-expand-lg justify-content-between">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="navbar-nav">
-          <a class="navbar-brand" href="account.html"><img src="../images/user.jpg" class="nav-circle"></a>
-          <a class="nav-link" href="../index.html">Dashboard</a>
-          <a class="nav-link" href="account.html">Account</a>
-          <a class="nav-link" href="feed.html">Feed</a>
-          <a class="nav-link" href="draft.html">Post!</a>
-        </div>
-      </div >
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg justify-content-between">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav">
+            <a class="navbar-brand" href="account.html"><img src="../images/user.jpg" class="nav-circle"></a>
+            <a class="nav-link" href="../index.html">Dashboard</a>
+            <a class="nav-link" href="account.html">Account</a>
+            <a class="nav-link" href="feed.html">Feed</a>
+            <a class="nav-link" href="draft.html">Post!</a>
+          </div>
+        </div >
+      </div>
+    </nav>
 
-  <div class="page">
-    <div class="title"><h1>My Account</h1></div>
-    <hr class="top">
+    <div class="page">
+      <div class="title"><h1>My Account</h1></div>
+      <hr class="top">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4 col-12 splash-box">
-          <img src="../images/me.jpg" class="splash-img">
-        </div>
-        <div class="col-sm-8 col-12">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-4 col-12 splash-box">
-                <h2> Account Details: </h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 col-12 splash-box">
+            <img src="../images/me.jpg" class="splash-img">
+          </div>
+          <div class="col-sm-8 col-12">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4 col-12 splash-box">
+                  <h2> Account Details: </h2>
+                </div>
+                <div class="col-sm-4 col-12 splash-box">
+                  <label for="uname">Username:</label>
+                  <input type="text" id="uname" name="uname">
+                  <label for="pass">Password:</label>
+                  <input type="text" id="pass" name="pass"><br><br>
+                </div>
               </div>
-              <div class="col-sm-4 col-12 splash-box">
-                <label for="uname">Username:</label>
-                <input type="text" id="uname" name="uname">
-                <label for="pass">Password:</label>
-                <input type="text" id="pass" name="pass"><br><br>
+              <div class="row">
+                <div class="col-sm-4 col-12 splash-box">
+                  <h2> User Details: </h2>
+                </div>
+                <div class="col-sm-4 col-12 splash-box">
+                  <label for="fname">First Name:</label>
+                  <input type="text" id="fname" name="fname">
+                  <label for="lname">Last Name:</label>
+                  <input type="text" id="lname" name="lname"><br><br>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-4 col-12 splash-box">
-                <h2> User Details: </h2>
+              <div class="row">
+                <div class="col-sm-4 col-12 splash-box">
+                  <h2> Biography: </h2>
+                </div>
+                <div class="col-sm-4 col-12 splash-box">
+                  <label for="bio">Write about yourself:</label>
+                  <input type="text" id="bio" name="bio">
+                </div>
               </div>
-              <div class="col-sm-4 col-12 splash-box">
-                <label for="fname">First Name:</label>
-                <input type="text" id="fname" name="fname">
-                <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="lname"><br><br>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-4 col-12 splash-box">
-                <h2> Biography: </h2>
-              </div>
-              <div class="col-sm-4 col-12 splash-box">
-                <label for="bio">Write about yourself:</label>
-                <input type="text" id="bio" name="bio">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-4 col-12 splash-box">
-                <h2> Submit: </h2>
-              </div>
-              <div class="col-sm-4 col-12 splash-box">
-                  <button type="button">Update My Account</button>
+              <div class="row">
+                <div class="col-sm-4 col-12 splash-box">
+                  <h2> Submit: </h2>
+                </div>
+                <div class="col-sm-4 col-12 splash-box">
+                    <button type="button" class="button">Update My Account</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-<footer class="text-center text-lg-start footer">
-  <div class="text-center p-3">
-    © 2020 Copyright - Ben Murray - Images Courtesy of Myself and Pexels- Repo found at
-    <a class="text-dark" href="https://github.com/ben-mur64/microblog">Github</a>
+    <footer class="text-center text-lg-start footer">
+      <div class="text-center p-3">
+        © 2020 Copyright - Ben Murray - Images Courtesy of Myself and Pexels- Repo found at
+        <a class="text-dark" href="https://github.com/ben-mur64/microblog">Github</a>
+      </div>
+    </footer>
   </div>
-</footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
