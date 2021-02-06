@@ -13,10 +13,27 @@ body {
   flex-direction: column;
 }
 
-p {
-  font-size: 1.2rem;
+h2 {
+  font-size: 1.5rem;
   margin-left: 10px;
   margin-top: 10px;
+}
+
+p, input, label, button {
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.site-title {
+  background-color: #0052B8;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.site-title h1 {
+  font-size: 4rem;
 }
 
 .title {
@@ -34,25 +51,28 @@ p {
 
 .container {
   max-width: 1200px;
-  padding-bottom: 60px;
-}
-.footer {
-  background-color: #657786;
 }
 
 /* Navbar */
-.nav-gorilla {
-  width: 100px;
+.nav-circle {
+  width: 50px;
+  border-radius: 50px;
 }
 .nav-link {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #FFFFFF;
 }
 
 .navbar {
   width: 100%;
-  margin-bottom: 30px;
   background-color: #657786;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+hr.top {
+  border-top: 1px solid white;
+  margin-bottom: 2rem;
 }
 
 .home-box {
@@ -79,6 +99,24 @@ p {
   font-size: 3rem;
 }
 
+/* Post Styles */
+
+.post {
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.post-img {
+  width: 150px;
+  border-radius: 50px;
+  border-color: blue;
+  border-width: 3px;
+}
+
+.post-user {
+  font-weight: bold;
+}
 .splash-img {
     height: auto;
     width: auto;
@@ -99,12 +137,6 @@ p {
 
 
 
-
-
-
-
-
-
 /* Box-sizing reset: //w3bits.com/?p=3225 */
 html {
   box-sizing: border-box;
@@ -114,50 +146,4 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
-}
-
-
-
-
-
-
-
-
-/* The Masonry Container */
-.masonry {
-  margin: 1.5em auto;
-  max-width: 1200px;
-  column-gap: 1.5em;
-}
-
-/* The Masonry Brick */
-.item {
-  background: #fff;
-  padding: 1em;
-  margin: 0 0 1.5em;
-}
-
-/* Masonry on large screens */
-@media only screen and (min-width: 1024px) {
-  .masonry {
-    column-count: 4;
-  }
-}
-
-/* Masonry on medium-sized screens */
-@media only screen and (max-width: 1023px) and (min-width: 768px) {
-  .masonry {
-    column-count: 3;
-  }
-}
-
-/* Masonry on small screens */
-@media only screen and (max-width: 767px) and (min-width: 540px) {
-  .masonry {
-    column-count: 2;
-  }
-}
-
-.mason-img {
-  max-width: 100%;
 }

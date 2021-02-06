@@ -9,25 +9,28 @@
 </head>
 
 <body>
-  <div class="title"><h1>Microblog It!</h1></div>
-  <nav class="navbar navbar-expand-lg mx-auto">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <div class="navbar-nav mx-auto">
-        <!-- <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a> -->
-        <a class="navbar-brand" href="index.html"><img src="images/user.png" class="nav-gorilla"></a>
-        <a class="nav-link" href="pages/account.html">Account</a>
-        <a class="nav-link" href="pages/feed.html">Feed</a>
-        <a class="nav-link" href="pages/draft.html">Post!</a>
+  <div class="site-title"><h1>Microblog It!</h1></div>
+
+  <nav class="navbar navbar-expand-lg justify-content-between">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav">
+          <a class="navbar-brand" href="pages/account.html"><img src="images/user.jpg" class="nav-circle"></a>
+          <a class="nav-link" href="index.html">Dashboard</a>
+          <a class="nav-link" href="pages/account.html">Account</a>
+          <a class="nav-link" href="pages/feed.html">Feed</a>
+          <a class="nav-link" href="pages/draft.html">Post!</a>
+        </div>
       </div>
     </div>
   </nav>
 
   <div class="page">
     <div class="title"><h1>Dashboard</h1></div>
-
+    <hr class="top">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-12 home-box" id="home-feed">
@@ -45,12 +48,12 @@
     </div>
   </div>
 
-<footer class="text-center text-lg-start footer">
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-    © 2020 Copyright - Ben Murray - Images Courtesy of Pexels - Repo found at
-    <a class="text-dark" href="https://github.com/BYU-CS-260-Winter-2021/lab-1-photography-website-ben-mur64">Github</a>
-  </div>
-</footer>
+  <footer class="text-center text-lg-start footer">
+    <div class="text-center p-3">
+      © 2020 Copyright - Ben Murray - Images Courtesy of Myself and Pexels- Repo found at
+      <a class="text-dark" href="https://github.com/ben-mur64/microblog">Github</a>
+    </div>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
